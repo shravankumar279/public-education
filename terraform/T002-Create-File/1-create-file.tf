@@ -1,4 +1,4 @@
 resource "local_file" "mypet" {
-  filename = "/root/T002-Create-File/mypet"
+  filename = "/root/outputs/T002-Create-File/mypet"
   content  = "We love pets"
 }
