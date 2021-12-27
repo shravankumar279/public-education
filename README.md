@@ -6,7 +6,7 @@ git commit -m "T004_Create_Random_File"
 git push origin main
 
 ## lab setup
-
+rm -rf workspace
 mkdir workspace
 cd workspace
 git init
@@ -16,9 +16,8 @@ cd terraform/T001-Install-Terraform
 chmod 755 1_linux_env_setup.sh
 ./1_linux_env_setup.sh
 
-cd ../T004_Create_Random_File
-terraaform init
-terraform plan
+cd /root/workspace/terraform/T004_Create_Random_File/
+
 
 
 
