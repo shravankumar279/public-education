@@ -1,5 +1,5 @@
 #local_file : mypet
-variable "filename" {   default = "/root/outputs/T004-random-File/mypet"  }
+variable "filename" {   default = "/root/outputs/T005-input-variables/mypet"  }
 variable "content"  {   default = "We love pets"    }
 
 #random_pet : my-pet

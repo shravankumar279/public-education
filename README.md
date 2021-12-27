@@ -2,7 +2,7 @@
 public-education
 
 git add .
-git commit -m "T004_Create_Random_File"
+git commit -m "T005-Input-Variable"
 git push origin main
 
 ## lab setup
@@ -16,7 +16,7 @@ cd terraform/T001-Install-Terraform
 chmod 755 1_linux_env_setup.sh
 ./1_linux_env_setup.sh
 
-cd /root/workspace/terraform/T004_Create_Random_File/
+cd /root/workspace/terraform/T005-Input-Variable/
 
 
 
